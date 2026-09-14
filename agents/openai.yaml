@@ -1,4 +1,7 @@
 interface:
   display_name: "实验复现与性能分析"
-  short_description: "复现实验、定位训练或推理性能瓶颈，并产出证据链完整的技术报告"
+  short_description: "实验、复现、训练/推理性能分析与证据链完整的技术报告"
   default_prompt: "复现并分析这个训练或推理实验，定位瓶颈，记录排查过程，输出结构化报告。"
+
+policy:
+  allow_implicit_invocation: true
