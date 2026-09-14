@@ -69,6 +69,8 @@ description: Reproduce and analyze ML training or inference experiments, diagnos
 
 撰写时使用精确单位、分母和统计窗口（如 step 2–50 的均值、P50/P95、加权吞吐）。清楚区分模型/框架性能与数据解码、预处理、I/O、加载或编译等端到端开销。详情及可复制表格见 [报告模板与证据标准](references/report-template.md)。
 
+对正式报告采用双层交付：前半部分是高信息密度的决策摘要，回答结论、建议、证据和风险；后半部分是接手执行层，给未参与实验的同事或智能体提供复现、观察、继续或安全停止工作的最小事实集。完成报告后执行 [报告连续性审计](references/report-continuity.md)：将缺失的复现材料、运行状态、证据、授权或决策明确列为可回答问题，不以笼统的信息不足收尾。
+
 ## 原生飞书报告与实验附件
 
 当用户要求创建、更新或读取飞书 Docx/Wiki 报告，或提供飞书文档 URL/token 时，优先使用 `lark-cli` 的文档能力，不用浏览器自动化代替语义读写。开始此类任务前，读取 [飞书报告与媒体交付](references/lark-report-delivery.md)，并遵守其中的格式、附件与写后核验流程。
