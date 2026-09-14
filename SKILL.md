@@ -1,11 +1,15 @@
 ---
 name: experiment-performance-analysis
-description: Reproduce and analyze ML training or inference experiments, diagnose performance bottlenecks, and write evidence-backed experiment reports. Use for performance regressions, training/inference reproduction, profiling, communications or operator investigations; not for ordinary code changes without an experiment or measurement goal.
+description: Use for any technical experiment, reproduction, training/inference performance analysis, profiling or bottleneck investigation, and experiment/performance report—even when the user does not name this skill. Trigger on “实验”, “复现”, “性能”, “训练/推理”, “吞吐”, “延迟”, “profile”, or “瓶颈”; do not use for non-technical administrative, business, or financial reports.
 ---
 
 # 实验复现与性能分析
 
 将请求落实为可复现、可比较、结论边界明确的实验与报告。适用于训练、推理、算子、分布式通信和端到端性能分析。
+
+## 触发范围
+
+用户只要提到技术实验、复现、性能/吞吐/延迟、profile、瓶颈，或要求实验/性能/技术报告，即使未点名本 Skill，也进入本工作流。普通行政、商务或财务报告，以及与技术实验无关的“性能”评价，不触发。
 
 ## 工作原则
 
